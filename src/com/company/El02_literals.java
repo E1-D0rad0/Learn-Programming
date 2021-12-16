@@ -1,6 +1,6 @@
 package com.company;
 
-public class literals {
+public class El02_literals {
     public static void main(String[] args){
         byte age = 126;
         short s1 = 1344;
