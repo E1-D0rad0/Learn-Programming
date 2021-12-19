@@ -8,21 +8,21 @@ public class El04_CBSEPercentageCalculator {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter Your Physics Marks");
-        byte phy = sc.nextByte();
+        float phy = sc.nextFloat();
 
         System.out.println("Enter Your Chemistry Marks");
-        byte che = sc.nextByte();
+        float che = sc.nextFloat();
 
         System.out.println("Enter Your Maths Marks");
-        byte mat = sc.nextByte();
+        float mat = sc.nextFloat();
 
         System.out.println("Enter Your English Marks");
-        byte eng = sc.nextByte();
+        float eng = sc.nextFloat();
 
         System.out.println("Enter Your Computer Marks");
-        byte com = sc.nextByte();
+        float com = sc.nextFloat();
 
-        int percentage = ((phy+che+mat+eng+com)/5);
+        float percentage = ((phy+che+mat+eng+com)/5);
 
         System.out.println("You got "+ percentage +"%");
 
